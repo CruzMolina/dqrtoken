@@ -7,7 +7,7 @@ To install run:
 ```
 git clone https://github.com/CruzMolina/dqrtoken.git
 cd dqrtoken
-npm install
+npm i
 ```
 
 ## Testing
