@@ -352,7 +352,7 @@ contract PausableToken is StandardToken, Pausable
 
 // File: contracts\IndexToken.sol
 
-contract IndexToken is BurnableToken, MintableToken, PausableToken
+contract DQR30 is BurnableToken, MintableToken, PausableToken
 {
     string constant public name = "DQR 30";
     string constant public symbol = "dqr30";

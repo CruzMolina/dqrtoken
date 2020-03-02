@@ -9,13 +9,13 @@ const {
   shouldBehaveLikePausableToken
 } = require("./behaviors/PausableToken.behavior");
 
-const IndexToken = artifacts.require("IndexToken");
+const DQR_30 = artifacts.require("DQR30");
 
-contract("IndexToken", function([_, owner, ...otherAccounts]) {
+contract("DQR_30", function([_, owner, ...otherAccounts]) {
   const burnAmount = 1000;
 
   beforeEach(async function() {
-    this.token = await IndexToken.new({ from: owner });
+    this.token = await DQR_30.new({ from: owner });
   });
 
   shouldBehaveLikeMintableToken(owner, owner, otherAccounts);
